@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Operadores lógicos</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/bank-svgrepo-com.svg">
+        <h1>DevBank</h1>
+
+
+        <label class="first-input">Email:
+            <input class="email-input" type="email" autocomplete="email" placeholder="Seu email">
+        </label>
+
+        <label class="second-input">Senha:  
+            <input type="password" placeholder="Sua senha">
+        </label>
+
+
+        <button onclick="loginAcceptance()"   class="login-btn">Login</button>
+
+    </header>
+
+    <main>
+        <section>
+            
+            <img class="main-img" src="./assets/supporting-persons.svg">
+        </section>
+        <section class="message-section">
+            <h2>DevBank</h2>
+            <h3>A solução que vc esperava
+            </h3>
+        </section>
+
+        <section class="change-section">
+            <button onclick="changeText('A solução que você esperava'); changeImg('./assets/supporting-persons.svg')" class="change-img"></button>
+            <button onclick="changeText('Temos vários modelos de negócios para pequenas e grandes empresas'); changeImg('./assets/man-in-computer.svg')" class="change-img"></button>
+            <button onclick="changeText('Estamos em busca do melhor para nosso cliente!'); changeImg ('./assets/men-and-woman.svg')"class="change-img"></button>
+        </section>
+
+
+
+
+
+    </main>
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
